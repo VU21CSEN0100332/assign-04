@@ -25,9 +25,23 @@ def reverse(original):
   the values of the original are now keys!
   """
   reversed_dict = {}
+def reverse(original):
+  """
+  should create and return a new dictionary where
+  the values of the original are now keys!
+  """
+  reversed_dict = {}
   # Write your code here
-  
-  return reversed_dict
+  import unittest
+def reverse(original):
+   reversed_dict = {}
+   for i in original:
+      if(original[i] in reversed_dict):
+        reversed_dict[original[i]].append(i)
+      else:
+        reversed_dict[original[i]]=[]
+        reversed_dict[original[i]].append(i)
+   return reversed_dict
 
 
   
